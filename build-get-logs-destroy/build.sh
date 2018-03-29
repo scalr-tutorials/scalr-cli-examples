@@ -26,7 +26,7 @@ echo "$orchserverid"
 # loop till the server is up and running
 while [ "$serverstatus" != "running" ]
  do echo "Status: $serverstatus"
-	serverstatus=$(scalr-ctl servers get --serverId "$serverid "| jq '.data.status'| tr -d '"')
+	serverstatus=$(scalr-ctl servers get --serverId "$serverid"| jq '.data.status'| tr -d '"')
 	sleep 30
 done
 
