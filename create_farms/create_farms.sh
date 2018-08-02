@@ -6,7 +6,6 @@
 export config=~/.scalr/default.yaml
 export projectid=$2
 export inputfile=$1
-#"30c59dba-fc9b-4d0f-83ec-4b5043b12f72"
 
 #make folder to hold jsonfiles
 mkdir -p ./json
