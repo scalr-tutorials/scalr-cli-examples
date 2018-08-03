@@ -1,0 +1,34 @@
+{
+  "networking": {
+    "subnets": [],
+    "hostname": {
+      "type": "TemplateHostnameConfiguration"
+    },
+    "networks": [{"id": "vpc-xxx"}	]
+  },
+  "advancedConfiguration": {
+    "instanceName": ""
+  },
+  "scaling": {
+    "considerSuspendedServers": "running"
+  },
+  "alias": "test",
+  "cloudLocation": "us-east-1",
+  "role": {
+    "id": 1
+  },
+  "cloudFeatures": {
+    "type": "AwsCloudFeatures"
+  },
+  "launchIndex": 1,
+  "security": {
+    "securityGroups": [
+	{"id": "sg-xxx"}
+	]
+  },
+  "availabilityZones": [],
+  "instanceType": {
+    "id": "t2.small"
+  },
+  "cloudPlatform": "ec2"
+}
