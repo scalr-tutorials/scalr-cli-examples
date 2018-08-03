@@ -9,5 +9,11 @@ QAapp1, xxx, xxx, xxx
 
 ```
 
-## Execute
+## Execute the script
+You will need to provide the path to the .CSV file with your farm names in it, and the scalr_projectid.
+
+To get the Scalr Project ID use:
+-  'scalr-ctl project list'
+
+
 ./create_farms.sh example.csv scalr_projectid
