@@ -22,5 +22,5 @@ do
   echo $farmid
   scalr-ctl --config $config farms launch --farmId $farmid
   # add Farm roles
-  scalr-ctl farm-roles create --farmId $farmid --stdin < farm-role.json
+  # scalr-ctl farm-roles create --farmId $farmid --stdin < farm-role.json
 done

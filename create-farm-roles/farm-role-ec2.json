@@ -1,34 +1,41 @@
 {
-  "networking": {
-    "subnets": [],
-    "hostname": {
-      "type": "TemplateHostnameConfiguration"
-    },
-    "networks": [{"id": "vpc-xxx"}	]
-  },
-  "advancedConfiguration": {
-    "instanceName": ""
-  },
-  "scaling": {
-    "considerSuspendedServers": "running"
-  },
-  "alias": "test",
-  "cloudLocation": "us-east-1",
-  "role": {
-    "id": 1
-  },
-  "cloudFeatures": {
-    "type": "AwsCloudFeatures"
-  },
-  "launchIndex": 1,
-  "security": {
-    "securityGroups": [
-	{"id": "sg-xxx"}
-	]
-  },
-  "availabilityZones": [],
-  "instanceType": {
-    "id": "t2.small"
-  },
-  "cloudPlatform": "ec2"
-}
+   "networking": {
+    "networks": [
+      {
+        "id": ""
+        }
+     ],
+    "subnets": [
+      {
+        "id": ""
+      }
+    ]
+   },
+   "advancedConfiguration": {
+     "disableAgentIptablesManagement": false,
+     "disableAgentNtpManagement": false,
+     "rebootAfterHostInit": false
+   },
+   "scaling": {
+     "minInstances": 1,
+     "enabled": false,
+     "maxInstances": 1
+   },
+   "alias": "",
+   "role": {
+     "id": ""
+   },
+   "cloudFeatures": {
+     "type": "AwsCloudFeatures"
+   },
+   "launchIndex": 1,
+   "security": {
+     "securityGroups": [{"id": ""}]
+   },
+   "availabilityZones": [],
+   "cloudLocation": "",
+   "instanceType": {
+       "id": ""
+   },
+   "cloudPlatform": "ec2"
+ }

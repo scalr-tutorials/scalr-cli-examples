@@ -1,9 +1,0 @@
-{
-   "timeoutDefault": 1,
-   "description": "",
-   "tags": [],
-   "deprecated": false,
-   "blockingDefault": true,
-   "osType": "linux",
-   "name": "test.sh"
- }
